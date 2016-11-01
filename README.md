@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple website similar to Pintrest. The website has CRUD functionality along with User sign in signout(devise). You can upload images and favorite articles(acts as votable)
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.3.0
 
-* System dependencies
+* Rails version - 2.3.0
 
-* Configuration
+* Additional Gems - haml, devise, booststrap-sass, simple-form, paperclip, masonry rails, acts_as_votable
 
-* Database creation
+* Database - sqlite3
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions - Bundle install, run migration and run server
